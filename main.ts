@@ -8,7 +8,7 @@ basic.forever(function () {
     reading,
     1023
     )
-    if (input.buttonIsPressed(Button.B)) {
+    if (input.buttonIsPressed(Button.A)) {
         basic.showNumber(reading)
     }
     basic.pause(5000)
